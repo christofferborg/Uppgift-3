@@ -1,7 +1,7 @@
 // Declaration of HTML-elements.
 
 const knapp = document.querySelector('#button');
-const body = document.querySelector('body')
+const text = document.querySelector('h1')
 
 // Event listeners
 
@@ -12,5 +12,5 @@ knapp.addEventListener(
 // Functions
 
 function changeColor(){
- body.style.background = 'lightcoral';
+ text.textContent = 'Goodbye World!'
 }
