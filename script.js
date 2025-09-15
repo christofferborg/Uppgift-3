@@ -1,5 +1,16 @@
-const knapp = document.querySelector('#button');
+// Declaration of HTML-elements.
 
-knapp.onclick = function() {
-    document.getElementById('button').style.color = "blue";
-} 
+const knapp = document.querySelector('#button');
+const body = document.querySelector('body')
+
+// Event listeners
+
+knapp.addEventListener(
+    'click', changeColor
+);
+
+// Functions
+
+function changeColor(){
+ body.style.background = 'red';
+}
