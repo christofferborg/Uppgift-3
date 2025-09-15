@@ -1,4 +1,4 @@
-const knapp = document.getElementById('button');
+const knapp = document.querySelector('#button');
 
 knapp.onclick = function() {
     document.getElementById('button').style.color = "blue";
