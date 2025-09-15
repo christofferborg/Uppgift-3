@@ -12,5 +12,5 @@ knapp.addEventListener(
 // Functions
 
 function changeColor(){
- body.style.background = 'red';
+ body.style.background = 'lightcoral';
 }
